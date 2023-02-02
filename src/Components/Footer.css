@@ -1,0 +1,22 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    height: 4vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.822);
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+
+
+}
+p{
+    color: rgba(255, 255, 255, 0.274);
+   
+}
+

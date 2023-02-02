@@ -1,0 +1,80 @@
+* {
+   margin: 0;
+   padding: 0;
+ }
+ body{
+   height: 100vh;
+   width: 100vw;
+ }
+ .home1{
+   position: relative;
+   isolation: isolate;
+   background: black;
+   width: 100vw;
+   height: 100vh;
+ }
+ .container {
+   width: 100vw;
+   height: 75vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .home1::after{
+   content:' ';
+   position: fixed;
+   z-index: -1;
+   inset: 0;
+   opacity: .4;
+   background: url('/public/foto-fundo.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .titulohome{
+   margin-top: 60px;
+   display: flex;
+   height: 10vh;
+   width: 70vw;
+   justify-content: center;
+   border-bottom: 1px solid white;
+
+ }
+
+ .titulohome h1 {
+   font-family:'Dancing Script', cursive;
+   text-align: center;
+   font-weight: 200;
+   font-size: 60px;
+   color: rgba(255, 255, 255, 0.808);
+
+ }
+ .titulo2home {
+   margin-top: 60px;
+   display: flex;
+   height: 25vh;
+   width: 70vw;
+   justify-content: center;
+   margin-top: 20px;
+ }
+ .titulo2home  h2 {
+   text-align: center;
+   font-size: 30px;
+   margin-top: 30px;
+  color: #fadc33e3;
+   font: bold;
+   font-family: 'Arvo', serif;
+ }
+ button{
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+   background-color: rgba(63, 61, 61, 0.699);
+   font-size: 22px;
+   font-family: 'Arvo', serif;
+   border: 0ch;
+ }
+ button:hover{
+  color: #fadc33e3;
+ }

@@ -1,0 +1,94 @@
+.global{
+    position: relative;
+    isolation: isolate;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    height: 100vh;
+    width: 100vw;
+
+}
+.global::after{
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    inset: 0;
+    opacity: .4;
+    background: url('/public/fundo-serviços3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ser {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.seer{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 70vw;
+        height: 70vh;
+        background: rgba(0, 0, 0, 0.575);
+        box-shadow: 5px 10px #07070783;
+        color: white;
+
+}
+
+div.titulo2ser{
+        
+        align-items: center;
+        width: 80%;
+        height: 13%;
+        border-bottom: 1px solid white;
+
+    }
+.h1ser{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 45px;
+    color: rgba(202, 178, 38, 0.808);
+    text-align: center;
+}
+
+div.box-info{
+    margin-top: 10px;
+    display: flex;
+    width: 45%;
+    height: 40%;
+    border: .5px;
+    border-radius: 2%;
+    background: rgba(3, 3, 3, 0.507);
+
+}
+.foto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.foto2 img{
+    width: 80%;
+    height: 80%;
+}
+div.artigos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+div.artigos h3{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
