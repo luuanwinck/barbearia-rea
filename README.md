@@ -1,6 +1,6 @@
 
 <h2 align="center">Barbearia "Los Ramos"</h2>
-<h3 align="center">Primeiro projeto em grupo realizado  no Módulo 1,  proposto  pelo Resila/Senac  com parceria com a prefeitura pelo Programa Programadores Cariocas.</h3>
+<h3 align="center">Primeiro projeto em grupo realizado  no Módulo 3,  proposto  pelo Resila/Senac  com parceria com a prefeitura pelo Programa Programadores Cariocas.</h3>
 <h2 align="center">Funcionalidades ✔ </h2>
 ▪ Site desenvolvido na proposta de vitrine, com a intenção de auxiliar a Los Ramos a captar mais clientes, exibindo os seus serviços e produtos.
 ▪ API  ultilizando Framework Express e CORS sendo consumida por via Fetch. A API está  fazendo o trabalho de Banco de Dados tendo a opção de GET, POST , DELET.
