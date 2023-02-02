@@ -18,3 +18,5 @@ Site: https://github.com/luuanwinck/barbearia-rea
 
 
 API  ultilizando Framework Express e CORS sendo consumida por via Fetch. A API está  fazendo o trabalho de Banco de Dados tendo a opção de GET, POST , DELET.
+
+Desenvolvido por: Leticia Ferreira e Luan Winck feat Tegge
